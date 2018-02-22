@@ -1,0 +1,261 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/*media for screens bigger than 1024pixels*/
+@media screen and (min-width: 1024px) {
+	.container{
+		width: 1024px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.logo{
+		width: 120px;
+		height: 90px;
+		order: 1;
+	}
+	.title-name{
+		width: 904px;
+		order: 2;
+
+	}
+	.title-name h1{
+		display: block;
+		font-size: 1.5em;
+		text-align: right;
+		margin: 0.6em 0em 0em 0;
+		color: #7d97ad;
+
+	}
+	.title-name h5{
+		display: block;
+		font-size: 0.9em;
+		margin: 0.5em 0em 0em 0em;
+		text-align: right;
+		color: #7d97ad;
+	}
+	.header{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	hr{
+		margin-bottom: 10px;
+	}
+	.mainPicture img{ 
+		display: block;
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	 }
+	 .appPicture{
+	 	display: inline;
+	 	width: 300px;
+	 	vertical-align: middle;
+	 	margin-left: auto;
+	 	margin-right: auto;
+	 	border-radius: 10px;
+	 }
+	 .featured h2{
+	 	text-align: center;
+	 	margin-bottom: 15px;
+	 	color: #7d97ad;
+	 	font-size: 35px;
+	 }
+	 .mainApps{
+	 	display: flex;
+	 	flex-wrap: wrap;
+	 	position: relative;
+
+
+	 }
+	 .app{
+	 	margin-right:60px;
+	 }
+	 .app:last-child{
+	 	margin-right: 0;
+	 }
+	 .app h4{
+	 	text-align: center;
+	 	color: #2d3c49;
+	 	font-size: 30px;
+	 	margin-top: 10px;
+	 	margin-bottom: 10px;
+	 }
+	 .app, p, a{ 
+	 	font-size: 20px;
+	 	text-align: center;
+	 	color: #2d3c49;
+	 	margin-top: 10px;
+	 }
+	 a{
+	 	text-decoration: none;
+	 }
+	 a:hover{
+	 	color: #02b3e4;
+	 }
+	 footer{
+	 	text-align: center;
+	 	color: #2d3c49;
+	 	margin-bottom: 0px;
+	 }
+
+}
+/*media for tablets and medium sized screens*/
+@media screen and (min-width: 551px) and (max-width: 1023px) {
+	.container{
+		width: 100%;
+	}
+	.logo{
+		width: 19vw;
+		height: 10vh;
+		order: 1;
+	}
+	.title-name{
+		width: 80vw;
+		order: 2;
+
+	}
+	.title-name h1{
+		display: block;
+		font-size: 1.5em;
+		text-align: right;
+		margin: 0.6em 0.5em 0em 0;
+		color: #7d97ad;
+
+	}
+	.title-name h5{
+		display: block;
+		font-size: 0.9em;
+		margin: 0.5em 0.6em 0em 0em;
+		text-align: right;
+		color: #7d97ad;
+	}
+	.header{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	hr{
+		margin-bottom: 10px;
+	}
+	.mainPicture{
+		margin: auto;
+	}
+	.mainPicture img{ 
+		width: 100vw;
+		margin: 0;
+	 }
+	 .appPicture{
+	 	display: block;
+	 	width: 90vw;
+	 	vertical-align: middle;
+	 	margin-left: auto;
+	 	margin-right: auto;
+	 	border-radius: 10px;
+	 }
+	 .featured h2{
+	 	text-align: center;
+	 	margin-bottom: 15px;
+	 	color: #7d97ad;
+	 	font-size: 35px;
+	 }
+	 .app h4{
+	 	text-align: center;
+	 	color: #2d3c49;
+	 	font-size: 30px;
+	 	margin-top: 10px;
+	 	margin-bottom: 10px;
+	 }
+	 .app, p, a{ 
+	 	font-size: 20px;
+	 	text-align: center;
+	 	color: #2d3c49;
+	 	margin-top: 10px;
+	 }
+	 a{
+	 	text-decoration: none;
+	 }
+	 a:hover{
+	 	color: #02b3e4;
+	 }
+	 footer{
+	 	text-align: center;
+	 	color: #2d3c49;
+	 	margin-bottom: 0px;
+	 }
+
+}
+/*media for smartphones*/
+@media screen and (max-width: 550px) {
+
+	.container{
+		width: 100%;
+	}
+	.logo{
+		width: 20vw;
+		height: 7vh;
+		order: 1;
+	}
+	.title-name{
+		width: 80vw;
+		order: 2;
+
+	}
+	.title-name h1{
+		display: block;
+		font-size: 1em;
+		text-align: justify;
+		margin: 0.6em 0.5em 0em 0;
+		color: #7d97ad;
+
+	}
+	.title-name h5{
+		display: block;
+		font-size: 0.7em;
+		margin: 0.5em 0.6em 0em 0em;
+		text-align: justify;
+		color: #7d97ad;
+	}
+	.header{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	hr{
+		margin-bottom: 10px;
+	}
+	.mainPicture{
+		margin: auto;
+	}
+	.mainPicture img{ 
+		width: 100vw;
+		margin: 0;
+	 }
+	 .appPicture{
+	 	display: block;
+	 	width: 90vw;
+	 	vertical-align: middle;
+	 	margin-left: auto;
+	 	margin-right: auto;
+	 	border-radius: 10px;
+	 }
+	 .featured h2{
+	 	text-align: center;
+	 	margin-bottom: 10px;
+	 	color: #7d97ad;
+	 }
+	 .app{
+	 	text-align: center;
+	 	color: #2d3c49;
+	 }
+	 a{
+	 	text-decoration: none;
+	 }
+	 a:hover{
+	 	color: #02b3e4;
+	 }
+	 footer{
+	 	text-align: center;
+	 	color: #2d3c49;
+	 	margin-bottom: 0px;
+	 }
+
+}
